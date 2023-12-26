@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 95vh;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <table border="1px" width = "60%" style="border: 5px solid black;">
+            <!-- table row for heading -->
+            <tr>
+                <th colspan="2"><h1>Information Systems - Lab Work 16</h1></th>
+            </tr>
+            <!-- Second Row -->
+            <tr>
+                <td align="center">
+                    <h3><i>Article 1</i></h3>
+                    <p>Hello World! This is text for article 1</p>
+                </td>
+                <td align="center">
+                    <h3><mark>Article 2</mark></h3>
+                    <p>Hello World! This is text for article 1</p>
+                </td>
+            </tr>
+            <!-- Third Row -->
+            <tr>
+                <td align="center">
+                    <h3><ins>Ordered List</ins></h3>
+                </td>
+                <td align="center">
+                    <h3><del>Unordered List</del></h3>
+                </td>
+            </tr>
+            <!-- Fourth Row -->
+            <tr>
+                <td>
+                    <ol type="a">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3
+                            <ol type="i">
+                                <li><b>Item 1</b></li>
+                                <li><b>Item 2</b></li>
+                                <li><b>Item 3</b></li>
+                            </ol>
+                        </li>
+                        <li>Item 4</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3
+                            <ul>
+                                <li><b>Item 1</b></li>
+                                <li><b>Item 2</b></li>
+                                <li><b>Item 3</b></li>
+                            </ul>
+                        </li>
+                        <li>Item 4</li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Fifth Row Using table -->
+            <tr>
+                <th colspan="2">
+                    <table align="center"><br>
+                        <tr>
+                            <td>
+                                <label for="Fname">First Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="Fname" id="Fname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Lname">Last Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="Lname" id="Lname">
+                            </td>
+                        </tr>
+                        <tr align="left">
+                            <td>
+                                <label for="Email">Email:</label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" name="submit" id="submit" value="Submit">
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                </th>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
