@@ -5,8 +5,7 @@
 }
 
 body{
-    height: 900px;
-    background: white;
+    background: #222222;
     background-size: cover;
     background-position: center;
 }
@@ -33,31 +32,31 @@ body{
 .navbar nav ul li a, .contact a{
     text-decoration: none;
     padding: 5px 10px;
-    color: black;
+    color: white;
     font-size: 25px;
     transition: 0.5s ease;
-    color: black;
+    color: white;
 }
 
 .navbar nav ul li a:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 
 .maincont a{
     text-decoration: none;
     padding: 5px 10px;
-    color: black;
+    color: white;
     font-size: 25px;
     transition: 0.5s ease;
-    color: black;
+    color: white;
     border: 1px solid;
 }
 
 section a:hover{
-    background-color: black;
-    color: black;
+    background-color: white;
+    color: white;
     box-shadow: 4px 4px 0px rgba(255,255,255,0.4);
 }
 
@@ -71,9 +70,9 @@ section a:hover{
     background: transparent;
     outline: none;
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 .search-btn{
@@ -82,15 +81,15 @@ section a:hover{
     outline: none;
     border: 1px solid transparent;
     text-align: center;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 25px;
     transition: 0.4s ease;
 }
 
 .search-btn:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     box-shadow: 4px 4px 0px rgba(255,255,255,0.4);
 }
 
@@ -104,7 +103,6 @@ section a:hover{
     margin-top: 20px;
     width: 1500px;
     border-radius: 20px;
-    border: 1px solid black;
     align-items: center;
     display: flex;
     align-items: center;
@@ -116,7 +114,7 @@ section a:hover{
 }
 
 .frow h1{
-    color: black;
+    color: white;
     font-size: 70px;
     margin: 0px 0px 40px 0px;
 }
@@ -124,14 +122,19 @@ section a:hover{
 .main-content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: first baseline;
     flex-direction: column;
     padding: 0px 0px 10px 0px; 
     transition: 0.4s ease;
     width: 250px;
-    height: 400px;
+    height: 470px;
     border: 1px solid grey;
     text-align: center;
+    transition: 0.4s ease;
+}
+
+.main-content:hover{
+    transform: scale(1.05);
 }
 
 .main-content:hover{
@@ -143,31 +146,54 @@ section a:hover{
 }
 
 .main-content p{
-    color: black;
+    color: white;
     margin-bottom: 15px;
     padding: 0px 10px;
 }
 
 .main-content a{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 5px 10px;
-    background-color: black;
+    background-color: white;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
 .main-content a:hover{
-    color: white;
+    color: black;
 }
 
 .filter-sel select{
     background: transparent;
-    color: black;
+    color: white;
     border: 1px solid grey;
     padding: 5px 10px;
     font-size: 20px;
     outline: none;
     cursor: pointer;
     margin-bottom: 40px;
+}
+
+.filter-sel select option{
+    color: black;
+}
+
+.subimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 230px;
+    margin-bottom: 10px;
+}
+
+.subimg img{
+    margin: 0px;
+}
+
+.subimg-btn{
+    border: transparent;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
