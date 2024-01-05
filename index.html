@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- navbar and the header section  -->
     <header>
         <div class="navbar">
             <nav>
                 <div class="logo">
                     <a href="index.html">
-                        <!-- <img src="headlogo.png" alt="logo.png" width="50px"> -->
-                        <h4>LOGO</h4>
+                        <img src="logo.png" alt="logo.png" width="100px">
                     </a>
                 </div>
 
@@ -36,15 +36,138 @@
         </div>
     </header>
 
+    <!-- the heading and the browse pages content -->
+    <!-- the heading and the description and shop now button-->
     <section class="maincont">
-        <div>
+        <div class="maindesc">
             <h1 id="heading">Printer</h1>
             <br>
             <p>Come explore the world of outstanding printing by visiting our online store! You can boost productivity and unleash your creativity with our fantastic selection of printers. We provide an extensive assortment to satisfy every need, from robust devices designed for optimal business productivity to sophisticated, compact models for individual use. Discover the newest advancements in printing technology, which yield clear, vibrant results on every page. The user-friendly features of our printers ensure a hassle-free printing experience. Whether you're a professional seeking accuracy or a creative enthusiast trying to bring your ideas to life, we have the perfect printer for you. Look through our carefully curated collection to find printers that seamlessly blend design and functionality. Enjoy the convenience of wifi access and state-of-the-art technologies.</p>
             <br><br>
             <a href="#">Shop Now &rArr;</a>
         </div>
+
+        <!-- code of Browse our pages section -->
+        <div class="pages">
+            <table class="browse-table" align="center">
+                <tr>
+                    <th colspan="2"><h1>Browse Our Pages</h1></th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="products.html">
+                            <div class="card">
+                            <h2>Products</h2>
+                            <img src="images/Products.png" alt="" width="300px">
+                        </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <div class="card">
+                            <h2>Blog</h2>
+                            <img src="images/Products.png" alt="" width="300px">
+                        </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#">
+                            <div class="card">
+                            <h2>Research</h2>
+                            <img src="images/Products.png" alt="" width="300px">
+                        </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <div class="card">
+                            <h2>About Us</h2>
+                            <img src="images/Products.png" alt="" width="300px">
+                        </div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </section>
+
+    <section class="product-sec">
+        <div class="header-home">
+            <h1 style="margin-bottom: 40px;">Hot Products</h1>
+        </div>
+        <div class="product-main">
+            <div class="main-content" id="laser">
+                <img src="images/Printer/DCP.jpg" alt="Product Image" width="250px" height="250px" id="mainimg1">
+                <p><b>Brother DCP L2540DW Laser Printer</b></p>
+                <p style="margin-bottom: 3px;"><del>Price: $199.99</del></p>
+                <p>Offer Price: $99.99</p>
+                
+                <a href="#" onclick="alert('Added to cart')">Buy Now</a>
+            </div>
+            <div class="main-content" id="card-hov">
+                <img src="images/Printer/T720DW.jpg" alt="Product Image" width="250px" height="250px" id="mainimg4">
+                <p style="margin-bottom: 5px;"><b>Brother DCP T720DW 3-in-1 Inkjet Color Printer</b></p>
+                <p style="margin-bottom: 3px;"><del>Price: $199.99</del></p>
+                <p>Offer Price: $99.99</p>
+                <a href="#" onclick="alert('Added to cart')">Buy Now</a>
+            </div>
+            <div class="main-content" id="card-hov">
+                <img src="images/Printer/2331.jpg" alt="Product Image" width="250px" height="250px">
+                <p style="margin-bottom: 5px;"><b>Canon PIXMA MegaTank G3000</b></p>
+                <p style="margin-bottom: 3px;"><del>Price: $199.99</del></p>
+                <p>Offer Price: $99.99</p>
+                <a href="#" onclick="alert('Added to cart')">Buy Now</a>
+            </div>
+
+            <div class="main-content" id="laser2">
+                <img src="images/Printer/Hp.jpg" alt="Product Image" width="250px" height="250px" style="padding: 30px; box-sizing: border-box;">
+                <p style="margin-bottom: 5px;"><b>HP Laser MFP 138fnw</b></p>
+                <p style="margin-bottom: 3px;"><del>Price: $199.99</del></p>
+                <p>Offer Price: $99.99</p>
+                <a href="#" onclick="alert('Added to cart')">Buy Now</a>
+            </div>
+
+            <div class="main-content" id="laser4">
+                <img src="images/Printer/hp2.jpg" alt="Product Image" width="250px" height="250px">
+                <p style="margin-bottom: 5px;"><b>HP Laser 1008a Printer</b></p>
+                <p style="margin-bottom: 3px;"><del>Price: $199.99</del></p>
+                <p>Offer Price: $99.99</p>
+                <a href="#" onclick="alert('Added to cart')">Buy Now</a>
+            </div>
+
+            <div class="main-content" id="card-hov">
+                <img src="images/Printer/pixma.jpg" alt="Product Image" width="250px" height="250px">
+                <p style="margin-bottom: 5px;"><b>Canon PIXMA MegaTank G2012</b></p>
+                <p style="margin-bottom: 3px;"><del>Price: $199.99</del></p>
+                <p>Offer Price: $99.99</p>
+                <a href="#" onclick="alert('Added to cart')">Buy Now</a>
+            </div>
+            
+        </div>
+
+        <a href="products.html" class="allpros">
+            See All Products
+        </a>
+    </section>
+    <hr>
+
+    <footer class="foot">
+        <h1>Printer</h1>
+        <p style="margin-bottom: 10px;">&copy; All rights reserved</p>
+        <a href="https://www.instagram.com">
+            <img src="images/socials/instagram.png" alt="" width="35px">
+        </a>
+        <a href="https://www.instagram.com">
+            <img src="images/socials/facebook.png" alt="" width="35px">
+        </a>
+        <a href="https://www.instagram.com">
+            <img src="images/socials/gmail.png" alt="" width="35px">
+        </a>
+    </footer>
+
+
     <script src="script.js"></script>
 </body>
 </html>
