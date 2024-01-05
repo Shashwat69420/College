@@ -97,6 +97,7 @@ section a:hover{
     display: flex;
     align-items: first baseline;
     justify-content: center;
+    padding-bottom: 90px;
 }
 
 .main-table{
@@ -196,4 +197,11 @@ section a:hover{
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+
+.foot{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    padding-bottom: 5px;
 }
